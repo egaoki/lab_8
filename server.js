@@ -59,7 +59,7 @@ app.get('/api', (req, res) => {
     })
     .then((data) => {
       console.log(data);
-      res.send({ data : data });
+      res.send({ data });
     })
     .catch((err) => {
       console.log(err);
